@@ -1,0 +1,1 @@
+let rms x y = sqrt ((x *. x +. y *. y) /. 2.0)

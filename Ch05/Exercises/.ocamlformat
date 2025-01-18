@@ -1,0 +1,4 @@
+profile = default
+margin = 80
+break-cases = all
+cases-exp-indent = 2

@@ -1,0 +1,25 @@
+(library
+ (name exercises)
+ (modules
+  list_expr
+  product
+  concat
+  patterns
+  library
+  puzzle
+  take_drop
+  take_drop_tail
+  unimodal
+  powerset
+  print_int_list
+  student))
+
+(executable
+ (name product_test)
+ (modules product_test)
+ (libraries ounit2 exercises))
+
+(executable
+ (name library_test)
+ (modules library_test)
+ (libraries ounit2 exercises))
