@@ -12,7 +12,22 @@
   unimodal
   powerset
   print_int_list
-  student))
+  student
+  pokerecord
+  safe_hd_and_tl
+  pokefun
+  date_before
+  earliest_date
+  assoc_list
+  cards
+  quadrant
+  tree
+  depth
+  shape
+  list_max_exn
+  list_max_exn_string
+  quadrant_poly
+  is_bst))
 
 (executable
  (name product_test)
@@ -22,4 +37,14 @@
 (executable
  (name library_test)
  (modules library_test)
+ (libraries ounit2 exercises))
+
+(executable
+ (name earliest_date_test)
+ (modules earliest_date_test)
+ (libraries ounit2 exercises))
+
+(executable
+ (name list_max_exn_test)
+ (modules list_max_exn_test)
  (libraries ounit2 exercises))

@@ -6,4 +6,4 @@ let powerset lst =
       let new_sets = List.map (fun set -> hd :: set) acc in
       powerset' tl (acc @ new_sets)
   in
-  powerset' lst [ [] ]
+  powerset' lst [[]]

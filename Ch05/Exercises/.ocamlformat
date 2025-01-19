@@ -1,4 +1,14 @@
-profile = default
-margin = 80
-break-cases = all
 cases-exp-indent = 2
+break-cases = fit-or-vertical
+space-around-arrays = false
+space-around-lists = false
+space-around-records = false
+type-decl = sparse
+match-indent-nested = never
+indicate-nested-or-patterns = space
+break-separators = after
+
+margin = 80
+break-sequences = true
+doc-comments = before
+exp-grouping = preserve
