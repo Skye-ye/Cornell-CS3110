@@ -1,0 +1,35 @@
+(library
+ (name exercises)
+ (modules
+  repeat
+  product
+  sum_cube_odd
+  valid_matrix
+  exists
+  library_uncurried
+  more_list_fun
+  list_keys
+  account_balance
+  row_vector_add
+  matrix_add
+  matrix_multiply))
+
+(executable
+ (name valid_matrix_test)
+ (modules valid_matrix_test)
+ (libraries ounit2 exercises))
+
+(executable
+ (name row_vector_add_test)
+ (modules row_vector_add_test)
+ (libraries ounit2 exercises))
+
+(executable
+ (name matrix_add_test)
+ (modules matrix_add_test)
+ (libraries ounit2 exercises))
+
+(executable
+ (name matrix_multiply_test)
+ (modules matrix_multiply_test)
+ (libraries ounit2 exercises))

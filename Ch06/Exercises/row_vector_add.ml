@@ -1,0 +1,1 @@
+let add_row_vectors v1 v2 = List.map2 ( + ) v1 v2
