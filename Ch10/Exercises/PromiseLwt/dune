@@ -1,0 +1,19 @@
+(executable
+ (name promise)
+ (libraries lwt lwt.unix))
+
+(executable
+ (name time1)
+ (libraries lwt lwt.unix))
+
+(executable
+ (name time2)
+ (libraries lwt lwt.unix))
+
+(executable
+ (name time3)
+ (libraries lwt lwt.unix))
+
+(executable
+ (name time4)
+ (libraries lwt lwt.unix))
